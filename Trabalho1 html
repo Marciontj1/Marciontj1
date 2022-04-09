@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width">
+
+  <title>Atividade de Formulário</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+  <form>
+
+    <h2>Formulário</h2>
+
+    <fieldset>
+
+      <legend>Dados pessoais</legend>
+
+      <label>Nome:</label>
+
+      <input type="Nome" id="Nome" value=""><br>
+
+      <br><label>Data de nascimento:</label>
+
+      <input type="datetime" id="Data de nascimento:" value=""><br>
+
+      <br> <label>Endereço:</label>
+
+      <input type="text" id="Endereço:" value="">
+
+      <label>Bairro:</label>
+
+      <input type="text" id="Bairro:" value="">
+
+      <label>Cidade:</label>
+
+      <input type="CEP" id="Cidade:" value="">
+
+      <br><label>CEP:</label>
+
+      <input type="text" name="CEP" size="5" maxlength="5">-<input type="text" name="CEP2" size="3" maxlength="3"> 
+
+      <label>Estado:</label>
+
+      <select name="estado-brasil">
+
+        <option value="inválido"></option>
+
+        <option value="CE">Ceará</option>
+
+        <option value="RJ">Rio de Janeiro</option>
+
+        <option value="SP">São Paulo</option>
+
+        <option value="MG">Minas Gerais</option>
+
+        <option value="PI">Piauí</option>
+
+        </select>
+
+      </fieldset>
+
+    <br>
+
+    <fieldset>
+
+      <legend>Dados profissionais</legend>
+
+      <p>Natureza de cargo</p>
+
+      <input type="radio" id="Motorista" name="Natureza de cargo" value="Motorista">
+
+      <label for="Motorista">Motorista</label>
+
+      <input type="radio" id="Vendedor" name="Natureza de cargo" value="Vendedor">
+
+      <label for="vendedor">Vendedor</label>
+
+      <input type="radio" name="Natureza de cargo" id="Serviços Gerais" value="Serviços Gerais">
+
+      <label for="Serviços Gerais">Serviços Gerais</label>
+
+      <input type="radio" name="Natureza de Cargo" id="Recepção">
+
+      <label for="Recepção">Recepção</label>
+
+      <p>Área de Interesse</p>
+
+      <input type="checkbox" name="Área de Interesse" id="Gerência" value="Gerência">
+
+      <label for="Gerência">Gerência</label>
+
+      <input type="checkbox" name="Área de Interesse" id="Administração" value="Administração">
+
+      <label for="Administração">Administração</label>
+
+      </fieldset>
+
+    </form>
+
+  </body>
+
+  </html>
+
+      
+
+      
